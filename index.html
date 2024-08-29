@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft ChatColor Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Minecraft ChatColor Generator</h1>
+
+    <div id="options">
+        <!--<h3>Colors:</h3>
+        <div id="colorOptions">
+            <button data-color="red">Red</button>
+            <button data-color="green">Green</button>
+            <button data-color="blue">Blue</button>
+            <button data-color="yellow">Yellow</button>
+            <button data-color="aqua">Aqua</button>
+            <button data-color="dark_red">Dark Red</button>
+            <button data-color="dark_green">Dark Green</button>
+            <button data-color="dark_blue">Dark Blue</button>
+            <button data-color="gold">Gold</button>
+            <button data-color="white">White</button>
+            <button data-color="gray">Gray</button>
+            <button data-color="dark_gray">Dark Gray</button>
+            <button data-color="black">Black</button>
+            <button data-color="light_purple">Light Purple</button>
+            <button data-color="dark_purple">Dark Purple</button>
+            <button data-color="reset">Reset</button>
+        </div> -->
+
+        <h3>Formatting:</h3>
+        <div id="formatOptions">
+            <button data-format="bold">Bold</button>
+            <button data-format="italic">Italic</button>
+            <button data-format="underline">Underline</button>
+            <button data-format="strikethrough">Strikethrough</button>
+            <button data-format="magic">Magic</button>
+            <button data-format="reset">Reset</button>
+        </div>
+
+        <h3>Custom Hex Color:</h3>
+        <input type="color" id="colorPicker" value="#ffffff">
+        <button id="applyHex">Apply Hex Color</button>
+    </div>
+
+    <textarea id="inputText" placeholder="(#17caee)(bold) Hello World"></textarea>
+    <div class="output">
+        <h3>Preview:</h3>
+        <div id="previewText"></div>
+        <h3>Generated Code:</h3>
+        <pre id="generatedCode"></pre>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
